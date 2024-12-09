@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>בחירת סוג הודעה:</p>
+    <select id="messageType">
+      <option value="info">מידע</option>
+      <option value="warning">אזהרה</option>
+      <option value="error">שגיאה</option></select
+    ><br /><br />
+    <p>כותרת:</p>
+    <br />
+    <input type="text" id="messageTitle" /><br />
+    <p>הודעה</p>
+    <br />
+    <textarea name="" id="messageBody"></textarea><br />
+    <button onclick="make_message()">אישור</button>
+    <div id="massege"></div>
+    <script src="lesson8_2.js"></script>
+  </body>
+</html>
